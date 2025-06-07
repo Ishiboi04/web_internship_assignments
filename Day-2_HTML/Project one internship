@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html> 
+<head>
+<title>Ishita html</title>
+</head>
+<body>
+<h1>ONE OF THE FAVOURITE BOOKS I OWN</h1>
+<p>This is one of the favourite books i own it was one of those books that made me think and stay with me even after i finished it . the link and the image of the book is provided below</p>
+<a href="https://www.amazon.in/product-reviews/B0DH3NCDVN/?_encoding=UTF8&pd_rd_w=MKrwl&content-id=amzn1.sym.e0c8139c-1aa1-443c-af8a-145a0481f27c&pf_rd_p=e0c8139c-1aa1-443c-af8a-145a0481f27c&pf_rd_r=WWHNS3W0DFK61EYHF6Q0&pd_rd_wg=sPTuY&pd_rd_r=3eb1b14d-facc-436e-8262-462f8b65eda7&ref_=pd_lpo">here is the link to the book</a>
+<img src="https://whatsinyourstory.com/wp-content/uploads/2022/07/978-1501161933.jpg">
+</body>
+</html>
