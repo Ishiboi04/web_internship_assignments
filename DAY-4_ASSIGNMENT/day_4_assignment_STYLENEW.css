@@ -1,0 +1,11 @@
+table {
+  border: 3px solid darkblue;
+  background-color: #f9f9f9;
+}
+
+form {
+  background-color: #e6f7ff;
+  padding: 15px;
+  width: 300px;
+  border: 1px solid #ccc;
+}
