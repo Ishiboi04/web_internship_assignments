@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Task 1 - DOM Selection</title>
+</head>
+<body>
+
+  <h1 id="main-heading">Welcome to My Page</h1>
+  <p class="info-text">This is a paragraph.</p>
+  <button id="change-text">Click Me</button>
+
+  <script>
+      document.getElementById("change-text").addEventListener("click", function () {
+      document.getElementById("main-heading").textContent = "Heading Changed!";
+      document.querySelector(".info-text").textContent = "Paragraph updated!";
+    });
+  </script>
+
+</body>
+</html>
