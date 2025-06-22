@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Task 4 - To-Do List App</title>
+</head>
+<body>
+
+  <h2>To Do List</h2>
+  <input type="text" id="task-input" placeholder="Enter a task">
+  <button id="add-task">Add</button>
+  <ul id="task-list"></ul>
+
+  <script>
+    
+    document.getElementById("add-task").addEventListener("click", function () {
+      const taskText = document.getElementById("task-input").value;
+      if (taskText === "") return;
+
+      const li = document.createElement("li");
+      li.textContent = taskText;
+
+      // Bonus: Add delete button
+      const deleteBtn = document.createElement("button");
+      deleteBtn.textContent = "Delete";
+      deleteBtn.style.marginLeft = "10px";
+      deleteBtn.addEventListener("click", function () {
+        li.remove();
+      });
+
+      li.appendChild(deleteBtn);
+      document.getElementById("task-list").appendChild(li);
+      document.getElementById("task-input").value = "";
+    });
+  </script>
+
+</body>
+</html>

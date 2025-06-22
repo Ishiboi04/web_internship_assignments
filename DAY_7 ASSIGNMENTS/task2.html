@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Task 2 - Input and Output</title>
+</head>
+<body>
+
+  <h2>Welcome Form</h2>
+  <input type="text" id="name-input" placeholder="Enter your name">
+  <button id="submit-name">Submit</button>
+  <p id="welcome-message"></p>
+
+  <script>
+      document.getElementById("submit-name").addEventListener("click", function () {
+      const name = document.getElementById("name-input").value;
+      const message = `Welcome, ${name}!`;
+      document.getElementById("welcome-message").textContent = message;
+    });
+  </script>
+
+</body>
+</html>
